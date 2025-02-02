@@ -1,2 +1,27 @@
-button {color:burlywood;
-background-color: black;}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    color: burlywood;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+#cat-pic {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.image-container {
+    height: 300px; /* Set a fixed height for the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
